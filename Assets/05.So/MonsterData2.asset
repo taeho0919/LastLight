@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bd40cb9d08a56f47aa997686f36c6ad, type: 3}
+  m_Name: MonsterData2
+  m_EditorClassIdentifier: 
+  _speed: 0
+  _health: 80
+  _chunkCount: 10
+  _attackType: 1
+  bombStats:
+    explosionRadius: 0
+    _bombEffect: {fileID: 0}
+    _bombController: {fileID: 9100000, guid: 042f3246dfc8785488c3ae4dd7e29e82, type: 2}
+  rangeStats:
+    _projectileSpeed: 9
+    _delayTime: 1
+    _projectilePrefab: {fileID: 3475092120977771760, guid: 03a07a0e5e16ba04b86f02b5e46769ba, type: 3}
+    _rangeController: {fileID: 22100000, guid: 35443721a09b09f45ac6f94180fee423, type: 2}
+  guardStats:
+    _guardController: {fileID: 0}

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Ground
+  - Enemy
+  - Gun
+  - Bullet
+  - Filter
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Gun
+  - Player
+  - Filter
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackGround
+    uniqueID: 3217858249
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Gun
+    uniqueID: 2753652249
+    locked: 0
+  - name: Monster
+    uniqueID: 2789609183
+    locked: 0
+  m_RenderingLayers:
+  - Default
