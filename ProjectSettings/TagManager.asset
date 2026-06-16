@@ -9,6 +9,7 @@ TagManager:
   - Gun
   - Bullet
   - Filter
+  - Dialogue
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Gun
   - Player
   - Filter
-  - 
+  - Dialogue
   - 
   - 
   - 
@@ -54,6 +55,9 @@ TagManager:
     locked: 0
   - name: Monster
     uniqueID: 2789609183
+    locked: 0
+  - name: Dialogue
+    uniqueID: 3865568199
     locked: 0
   m_RenderingLayers:
   - Default
