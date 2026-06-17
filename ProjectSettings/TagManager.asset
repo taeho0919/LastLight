@@ -10,6 +10,7 @@ TagManager:
   - Bullet
   - Filter
   - Dialogue
+  - Boss
   layers:
   - Default
   - TransparentFX

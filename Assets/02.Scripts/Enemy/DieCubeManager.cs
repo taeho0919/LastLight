@@ -7,6 +7,12 @@ public class DieCubeManager : MonoBehaviour
     [SerializeField] private GameObject _dieCube;
 
     public Stack<GameObject> dieCubePool = new Stack<GameObject>();
+    public static DieCubeManager instance;
+
+    private void Start()
+    {
+        instance = this;
+    }
 
     public void SpawnDieCube(Vector2 position, int count)
     {

@@ -28,5 +28,12 @@ public class Bullet : MonoBehaviour
                 collision.GetComponent<MonsterSystem>().TakeDamage(20);
             
         }
+        else if (collision.CompareTag("Boss"))
+        {
+            PlayerFire.instance.bulletPool.Push(gameObject);
+            gameObject.SetActive(false);
+
+            collision.GetComponent<BossHealthsystem>().TakeDamage(1);
+        }
     }
 }

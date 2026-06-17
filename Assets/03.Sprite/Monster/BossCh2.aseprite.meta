@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7ba04d799932e174bba56d649a2b8a08
+guid: e6182862181298147b5c400bae90547f
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -36,7 +36,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 20
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -72,7 +72,7 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   previousAsepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -85,7 +85,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   asepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -98,7 +98,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 639172345512209928
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,9 +123,72 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Boss
+  - name: Frame_0
     originalName: 
-    pivot: {x: 0.3962264, y: 0}
+    pivot: {x: 0.29545456, y: -0.3030303}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 76
+      width: 44
+      height: 33
+    spriteID: 528cf2319da7b9348a8555ea421831aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 76}
+  - name: Frame_1
+    originalName: 
+    pivot: {x: 0.30769232, y: -0.73913044}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 76
+      width: 26
+      height: 23
+    spriteID: a50f7b3658059e2498820ea1bb4ed057
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 76}
+  - name: Frame_2
+    originalName: 
+    pivot: {x: 0.42105263, y: -0.4047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 4
+      width: 38
+      height: 42
+    spriteID: fa27c2853f1b50c46a902be006698d38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 4}
+  - name: Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -133,9 +196,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 53
-      height: 55
-    spriteID: 9b9746a12ea74ff43b890df68142bdca
+      width: 64
+      height: 64
+    spriteID: 9a3e38429cfe1e441bcc90345cfbd969
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,40 +207,20 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Frame_1
+  spriteSheetImportData:
+  - name: BossCh2_0
     originalName: 
-    pivot: {x: 0.3962264, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 65
-      y: 4
-      width: 53
-      height: 55
-    spriteID: f94720f3ab4f8e24a97489498e52497f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 65, y: 4}
-  - name: Frame_2
-    originalName: 
-    pivot: {x: 0.3962264, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
       x: 4
-      y: 67
-      width: 53
-      height: 55
-    spriteID: 2bc10c6fb8b64f842a401807c35e2ff1
+      y: 76
+      width: 44
+      height: 33
+    spriteID: 679d967604f608e40a246fe6c261b650
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -185,20 +228,20 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 67}
-  - name: Frame_3
+    uvTransform: {x: 0, y: 0}
+  - name: BossCh2_1
     originalName: 
-    pivot: {x: 0.3962264, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 65
-      y: 67
-      width: 53
-      height: 55
-    spriteID: d21ef7a86d9da8448ad6fe4bcdbab985
+      x: 56
+      y: 76
+      width: 26
+      height: 23
+    spriteID: 10a69a14a3abd164c91a7a062b937472
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -206,17 +249,58 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 65, y: 67}
-  spriteSheetImportData: []
+    uvTransform: {x: 0, y: 0}
+  - name: BossCh2_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 64
+      height: 64
+    spriteID: 37c81be3eabf1c64a98c55fcd88f8cc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: BossCh2_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 4
+      width: 38
+      height: 42
+    spriteID: cdb283627dc25074daf3c2f4cce8538e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 4190183537
+      value0: 3108915322
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Boss
+    name: BossCh2
     layerFlags: 0
     layerType: 0
     blendMode: 0
@@ -225,38 +309,38 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 11
-        y: 0
-        width: 53
-        height: 55
-      spriteId: 9b9746a12ea74ff43b890df68142bdca
+        x: 19
+        y: 10
+        width: 44
+        height: 33
+      spriteId: 528cf2319da7b9348a8555ea421831aa
     - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
-        x: 11
-        y: 0
-        width: 53
-        height: 55
-      spriteId: f94720f3ab4f8e24a97489498e52497f
+        x: 24
+        y: 17
+        width: 26
+        height: 23
+      spriteId: a50f7b3658059e2498820ea1bb4ed057
     - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
-        x: 11
-        y: 0
-        width: 53
-        height: 55
-      spriteId: 2bc10c6fb8b64f842a401807c35e2ff1
+        x: 16
+        y: 17
+        width: 38
+        height: 42
+      spriteId: fa27c2853f1b50c46a902be006698d38
     - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
-        x: 11
+        x: 0
         y: 0
-        width: 53
-        height: 55
-      spriteId: d21ef7a86d9da8448ad6fe4bcdbab985
+        width: 64
+        height: 64
+      spriteId: 9a3e38429cfe1e441bcc90345cfbd969
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -264,6 +348,30 @@ ScriptedImporter:
     overridden: 0
     ignorePlatformSupport: 0
     maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0

@@ -98,6 +98,8 @@ public class UImanger : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            if(_playerMovement._isTimeLine)return;
+
             if (_settingPenal.activeSelf)
             {
                 OnClickSettingClose();
