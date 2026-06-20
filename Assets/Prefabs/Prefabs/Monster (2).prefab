@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 49155015521213853}
   - component: {fileID: 4130242316775182000}
   - component: {fileID: 8818358227393060402}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Monster1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 3994063598760028403}
   - component: {fileID: 8699775769847688132}
   - component: {fileID: 8825837780693023871}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sheild
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1967187811485896241}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DieCube
   m_TagString: Untagged
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
@@ -390,7 +390,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2993195454846675744}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Monster (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -422,7 +422,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 496364124400181153}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FireTransform
   m_TagString: Untagged
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}

@@ -11,7 +11,7 @@ public class Ending : MonoBehaviour
     {
         _transform.Translate(Vector2.up * _speed * Time.deltaTime);
 
-        if (_transform.anchoredPosition.y >= 6443f)
+        if (_transform.anchoredPosition.y >= 6885f)
         {
 
             SceneManager.LoadScene("Start Scene");

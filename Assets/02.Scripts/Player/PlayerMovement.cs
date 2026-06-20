@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     internal bool _isGround = false;
     internal bool _isTimeLine = false;
 
-    private Vector2 _dir;
+    internal Vector2 _dir;
     private Rigidbody2D _rb;
 
     [SerializeField] private float _speed;
@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _jumpForce;
     [SerializeField] private float _upGravity;
     [SerializeField] private float _downGravity;
+    public bool IsReverseControl;
 
     [Header("텔레포트 쿨타임")]
     [SerializeField] private float _tpCooldown = 3f;
@@ -120,5 +121,8 @@ public class PlayerMovement : MonoBehaviour
     private void OnMove(InputValue value)
     {
         _dir = value.Get<Vector2>();
+
+        if (IsReverseControl)
+            _dir.x *= -1;
     }
 }
