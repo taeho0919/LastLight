@@ -1146,9 +1146,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1127138782}
+      - m_Target: {fileID: 1127138783}
         m_TargetAssemblyTypeName: NextSceneButton, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OnClickExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -48179,7 +48179,7 @@ RectTransform:
   m_GameObject: {fileID: 2208009905696315347}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 19.49, y: 10.83, z: 1}
+  m_LocalScale: {x: 19.49, y: 12.11, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1787422273163617841}
@@ -48470,6 +48470,7 @@ MonoBehaviour:
   _jumpForce: 7
   _upGravity: 1
   _downGravity: 1.5
+  IsReverseControl: 0
   _tpCooldown: 5
   _cooldownImage: {fileID: 817720178789955166}
   _tpTimer: 0

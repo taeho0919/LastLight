@@ -28,6 +28,11 @@ public class ChangeBoss : MonoBehaviour
 
     [SerializeField] private Image _typeImage;
 
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private AudioClip _attack1Sound;
+    [SerializeField] private AudioClip _attack2Sound;
+    [SerializeField] private AudioClip _attack3Sound;
+
     [Header("Attack1")]
     [SerializeField] private Sprite _taurusI;
     [SerializeField] private GameObject _taurus;
@@ -95,6 +100,8 @@ public class ChangeBoss : MonoBehaviour
                 case 1:
                     if (_bh._isDead)
                         yield break;
+                    _audioSource.clip = _attack1Sound;
+                    _audioSource.Play();
 
                     BossEffect.Instance.CloseEye();
                     _starText.text = "Taurus";
@@ -108,6 +115,9 @@ public class ChangeBoss : MonoBehaviour
                     {
                         if (_bh._isDead)
                             yield break;
+
+                        _audioSource.clip = _attack3Sound;
+                        _audioSource.Play();
                         BossEffect.Instance.CloseEye();
                         _starText.text = "Capricorn";
                         _typeImage.gameObject.SetActive(true);
@@ -118,6 +128,8 @@ public class ChangeBoss : MonoBehaviour
                 case 3:
                     if (_bh._isDead)
                         yield break;
+                    _audioSource.clip = _attack2Sound;
+                    _audioSource.Play();
                     BossEffect.Instance.CloseEye();
                     _starText.text = "Libra";
                     _typeImage.gameObject.SetActive(true);
